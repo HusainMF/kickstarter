@@ -4,11 +4,18 @@
 1- Filtered the category "Games".
 
 2- Merged the two sub-categories "Borad games & cards" (one of them has a spelling error).
+
 3- Dropped the "URL" column ---> we don't need it in our analysis.
+
 4- Dropped the nulls in the "Location" column ---> we only have 11 missing out of 553 total board game campaigns (~2%), so the impact is very small.
+
 5- Deleted the misslabeled value in the "Funded Percentage" column (only 1 row) ---> can't contribute meaningful insights.
+
 6- Converted the "Goal" and "Pledged" columns to dollar curency ---> to make it more understandable and readable. 
+
 7- Converted the "Funded Percentage" column to percentage format (it was in just numbers/decimal) ---> to make it more understandable and readable.
+
+8- Converted the "duration" column to number with 0 decimal format ---> to make it more realistic because it calculates the duration in days
 
 
 # Data Dictionary
