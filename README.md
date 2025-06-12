@@ -17,8 +17,7 @@ The columns:
    | Project ID   b|  all the project IDs in the data        | integer   |
    | Name          |  all the names of each project          | String    |
    | Category      |   the category "Games"                  | String    |
-   | Sub Category  |  the sub category that we will be 
-                    focus on which is "Board Games & Card"   | String    |
+   | Sub Category  |  the sub category that we will be focus on which is "Board Games & Card"   | String    |
    | Location      |  the country name and its state         | String    |
    | Status        |  the status of the project,
                     whether it success, failed...            | String    |
