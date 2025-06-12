@@ -2,6 +2,7 @@
 
 # Cleaning Process:
 1- Filtered the category "Games".
+
 2- Merged the two sub-categories "Borad games & cards" (one of them has a spelling error).
 3- Dropped the "URL" column ---> we don't need it in our analysis.
 4- Dropped the nulls in the "Location" column ---> we only have 11 missing out of 553 total board game campaigns (~2%), so the impact is very small.
