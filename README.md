@@ -11,11 +11,13 @@
 
 5- Deleted the misslabeled value in the "Funded Percentage" column (only 1 row) ---> can't contribute meaningful insights.
 
-6- Converted the "Goal" and "Pledged" columns to dollar curency ---> to make it more understandable and readable. 
+6- Removed duplicate (one row, project id: 2143119805) ---> to maintain data accuracy and improves workflow in tasks such as sorting, filtering, and summarizing.
 
-7- Converted the "Funded Percentage" column to percentage format (it was in just numbers/decimal) ---> to make it more understandable and readable.
+7- Converted the "Goal" and "Pledged" columns to dollar curency ---> to make it more understandable and readable. 
 
-8- Converted the "duration" column to number with 0 decimal format ---> to make it more realistic because it calculates the duration in days
+8- Converted the "Funded Percentage" column to percentage format (it was in just numbers/decimal) ---> to make it more understandable and readable.
+
+9- Converted the "duration" column to number with 0 decimal format ---> to make it more realistic because it calculates the duration in days
 
 
 # Data Dictionary
