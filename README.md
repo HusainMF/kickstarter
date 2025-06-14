@@ -13,11 +13,17 @@
 
 6- Removed duplicate (one row, project id: 2143119805) ---> to maintain data accuracy and improves workflow in tasks such as sorting, filtering, and summarizing.
 
-7- Converted the "Goal" and "Pledged" columns to dollar curency ---> to make it more understandable and readable. 
+7- Change the name of the column (Goal) to Requested Funding ---> for easier understanding.
 
-8- Converted the "Funded Percentage" column to percentage format (it was in just numbers/decimal) ---> to make it more understandable and readable.
+8- Change the name of the column (pledged) to Received Funding ---> for easier understanding.
 
-9- Converted the "duration" column to number with 0 decimal format ---> to make it more realistic because it calculates the duration in days
+9- Converted the "Requested Funding" and "Received Funding" columns to dollar curency ---> to make it more understandable and readable. 
+
+10- Converted the "Funded Percentage" column to percentage format (it was in just numbers/decimal) ---> to make it more understandable and readable.
+
+11- Converted the "duration" column to number with 0 decimal format ---> to make it more realistic because it calculates the duration in days
+
+12- Add Duration_Group, Month, Is_Successful, and Goal_Range columns ---> To facilitate comparison and analysis
 
 
 # Data Dictionary
@@ -40,3 +46,8 @@ The columns:
    | Updates      | How many times each project did an update | Integer |
    | Comments     | Number of comments each project has     | Integer   |
    | duration     | The length of the duration              | Float     |
+   | Duration_Group| Categorizes each campaign based on how many days it lasted | Categorical 
+   | Month        | Extracted from the campaign launch date to identify the month it started | String
+   | Is_Successful| Indicates whether a campaign was successful or not | Binary 
+   | Goal_Range | Groups campaigns by how much funding they aimed to raise | Categorical 
+
